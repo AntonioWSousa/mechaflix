@@ -1,0 +1,84 @@
+@media screen and (max-width: 700px) {
+  .header-estilo .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .botao {
+    margin-top: 5px;
+    width: 180px;
+    height: 90px;
+  }
+  .header-estilo .anime-principal {
+    padding: 100px 20px 44px;
+  }
+  .anime-principal .descricao h1 img {
+    max-width: 380px;
+  }
+  .anime-principal .descricao {
+    max-width: 640px;
+  }
+  .rodape {
+    padding: 0 30px 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header-estilo {
+    background-color: #141414;
+    padding: 20px 0;
+  }
+  .header-estilo .container {
+    display: flex;
+  }
+  .header-estilo .header-logo {
+    text-align: center;
+    margin-right: 20px;
+  }
+  .header-estilo .header-menu {
+    flex-grow: 2;
+  }
+  .header-estilo .header-menu li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .header-estilo .header-menu a {
+    color: #AAAAAA;
+    font-size: 17px;
+  }
+  .header-estilo .header-menu-configuracao ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-estilo .header-menu-configuracao li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .header-estilo .header-menu, .header-estilo.header-menu-configuracao {
+    display: block;
+  }
+  .anime-principal {
+    padding: 150px 30px 60px;
+    height: 780px;
+  }
+  .anime-principal .titulo {
+    max-width: 340px;
+  }
+  .anime-principal .titulo h2 img {
+    max-width: 380px;
+  }
+  .anime-principal .titulo p {
+    margin: 20px 0 28px;
+    font-size: 1.6rem;
+  }
+  .anime-principal .titulo a {
+    font-size: 1rem;
+    padding: 10px 28px;
+    height: 52px;
+    line-height: 35px;
+  }
+  .rodape {
+    padding: 0 30px 30px;
+  }
+}

@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  scrollbar-width: thin;
+  scrollbar-color: red #141414;
+}
+
+img {
+  max-width: 1200px;
+}
+
+figcaption {
+  display: none;
+}
+
+body {
+  background: #141414;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.header-estilo {
+  background-color: #141414;
+  padding: 17px 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-estilo .header-logo {
+  text-align: center;
+  margin-left: 5px;
+}
+
+.header-estilo .header-menu .header-menu-configuration {
+  display: flex;
+}
+
+.header-estilo .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-estilo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header-estilo li {
+  list-style: none;
+  position: relative;
+  display: inline-flex;
+}
+
+.header-estilo nav a {
+  text-decoration: none;
+  color: #AAAAAA;
+  margin-right: 10px;
+}
+
+.header-estilo nav a:hover {
+  color: #FFFFFF;
+}
+
+.anime-principal {
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/animeDestaque.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px 20px 22px;
+}
+
+.anime-principal .container {
+  width: 70%;
+}
+
+.anime-principal .imagem-destaque {
+  display: none;
+}
+
+.anime-principal .imagem-destaque img {
+  width: 100%;
+}
+
+.anime-principal .titulo {
+  margin-top: 5%;
+  font-size: 40px;
+}
+
+.anime-principal .descricao {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, .50);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: .3s ease all;
+  font-family: 'Merriweather', serif;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+/*Estilos seção de animes*/
+
+.anime-secao {
+  color: #EEEEEE;
+  padding: 0 20px;
+  margin-top: 31px;
+}
+
+.anime-secao h2 {
+  font-size: 1.7rem;
+}
+
+.anime-secao .anime-lista {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-top: 10px;
+}
+
+.anime-secao .anime-lista li {
+  margin-right: 10px;
+}
+
+.anime-secao .anime-lista h3 {
+  color: #AAAAAA;
+}
+
+.anime-progresso {
+  color: #EEEEEE;
+  padding: 0 20px;
+  margin-top: 31px;
+}
+
+.anime-progresso h2 {
+  font-size: 1.7rem;
+}
+
+.anime-progresso .anime-progresso-lista {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-top: 10px;
+}
+
+.anime-progresso .anime-progresso-lista li {
+  margin-right: 10px;
+}
+
+.anime-progresso .anime-progresso-lista h3 {
+  color: #AAAAAA;
+}
+
+.anime-lista-total {
+  color: #EEEEEE;
+  padding: 0 20px;
+  margin-top: 31px;
+}
+
+.anime-lista-total h2 {
+  font-size: 1.7rem;
+}
+
+.anime-lista-total .anime-lista-total-favoritos {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin-top: 10px;
+}
+
+.anime-lista-total .anime-lista-total-favoritos li {
+  margin-right: 10px;
+}
+
+.anime-lista-total .anime-lista-total-favoritos h3 {
+  color: #AAAAAA;
+}
+
+.rodape {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-color: #141414;
+  ;
+}
+
+.rodape .rodape-container {
+  width: 1125px;
+  margin: 25px auto 0;
+  height: 100%;
+  position: relative;
+}
+
+.rodape .midias-sociais {
+  width: 40%;
+}
+
+.esq {
+  float: left;
+}
+
+.rodape .midias-sociais .item {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background: rgb(202, 11, 11);
+  display: block;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+.rodape .midias-sociais .item img {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  position: absolute;
+  width: 75%;
+}
+
+.rodape .submenu {
+  width: 60%;
+  text-align: right;
+}
+
+.dir {
+  float: right;
+}
+
+.rodape a {
+  padding: 0 2%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #AAAAAA;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.rodape .copyright {
+  width: 60%;
+  text-align: right;
+  margin: 35px auto;
+}
